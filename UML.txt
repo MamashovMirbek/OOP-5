@@ -1,0 +1,24 @@
+UML Class Diagram - Electronic Device Shopping Cart
+
+This UML diagram represents the class structure for an electronic device shopping cart system. 
+It includes the following classes:
+
+1. Device (Base Class)
+   - Attributes: name, price, stock, warranty_period
+   - Methods: display_info(), apply_discount(), is_available(), reduce_stock()
+
+2. Smartphone (Inherits from Device)
+   - Attributes: screen_size, battery_life
+   - Methods: make_call(), install_app()
+
+3. Laptop (Inherits from Device)
+   - Attributes: ram_size, processor_speed
+   - Methods: run_program(), use_keyboard()
+
+4. Tablet (Inherits from Device)
+   - Attributes: screen_resolution, weight
+   - Methods: browse_internet(), use_touchscreen()
+
+5. Cart
+   - Attributes: items, total_price
+   - Methods: add_device(), remove_device(), get_total_price(), print_items(), checkout()
